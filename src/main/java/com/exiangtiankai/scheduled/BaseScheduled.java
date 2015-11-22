@@ -10,5 +10,6 @@ public interface BaseScheduled {
     /**
      * schedule 调用接口方法
      */
+//    @Scheduled(cron = "0 0 1 ? * *") // 秒 分 时 日 月 年
     void invoke();
 }

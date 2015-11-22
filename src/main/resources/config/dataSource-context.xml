@@ -58,7 +58,7 @@
 
     <!-- 通过扫描的模式，扫描目录，所有的Dao都继承BaseDao接口的接口， 这样一个bean就可以了 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.personal.dao"/>
+        <property name="basePackage" value="com.exiangtiankai.dao"/>
         <property name="markerInterface" value="com.common.dao.BaseDao"/>
     </bean>
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
